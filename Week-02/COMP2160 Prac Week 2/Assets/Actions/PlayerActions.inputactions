@@ -1,0 +1,145 @@
+{
+    "name": "PlayerActions",
+    "maps": [
+        {
+            "name": "driving",
+            "id": "b65cfd62-a19f-41b0-bf68-98c84c1dfd42",
+            "actions": [
+                {
+                    "name": "movement",
+                    "type": "Value",
+                    "id": "72a713ec-e6f6-45c3-88cf-cfe4cb3ad8c6",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f3858ae4-7af9-410c-9670-c6e0a00455cb",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "2D Vector",
+                    "id": "ba52c400-76a5-47af-a1d8-7de1aafaf3f5",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "cd5b9b87-d0fd-41d7-bbb8-5a62cb2a7514",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "a402600b-6949-43d2-beb0-b9db51c672e7",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "062ee2b6-ff00-4c0e-a857-a8f1d11722ce",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "d9242da0-9427-4707-ad47-d6e8d3658f4c",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "turbo",
+            "id": "91ae8f84-3684-4b1d-bb07-6c0d0b0810d5",
+            "actions": [
+                {
+                    "name": "turbo",
+                    "type": "Button",
+                    "id": "67e7280f-9b9b-4b08-845b-2d13e7935b5b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "78ea0d71-9ca2-4a0e-9afa-cbcf70de9dbe",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "turbo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "New action map",
+            "id": "b98f1e77-7a1a-45d2-8bdb-527fb53f3bc1",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "4168c13a-3248-46fb-a555-40d9b7061fd6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bdae9481-c887-4b44-b45a-811374223dda",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

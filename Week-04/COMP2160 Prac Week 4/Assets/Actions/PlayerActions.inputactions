@@ -1,0 +1,54 @@
+{
+    "name": "PlayerActions",
+    "maps": [
+        {
+            "name": "TowerDefence",
+            "id": "6d3a5843-8785-4421-b0eb-8e67d48244f1",
+            "actions": [
+                {
+                    "name": "SpawnPosition",
+                    "type": "Value",
+                    "id": "d8105a9e-477e-4b33-ae51-f20b6f67ea2c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SpawnTower",
+                    "type": "Button",
+                    "id": "258fb624-99e1-4c38-b8bf-aab9d3be2103",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "567f4f5d-c5a5-4280-b7df-6054c4035a06",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpawnPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9c255dec-6740-4be3-afda-3922d163b488",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpawnTower",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
